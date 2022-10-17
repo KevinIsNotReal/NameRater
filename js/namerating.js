@@ -15,7 +15,10 @@ function nameRater() {
         if(rating > 5) {
             image.src = 'images/thumbsup.png';
         }
-        if(rating <= 5) {
+        if(1 < rating && rating <= 5) {
+            image.src = 'images/sad.jpg';
+        }
+        if(rating <= 1) {
             image.src = 'images/husk.png';
         }
         setVisible();

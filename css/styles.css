@@ -15,8 +15,9 @@ body {
     padding:10px;
 }
 .score {
-    color:black;
+    color:white;
     visibility: hidden;
+    text-shadow:black 3px 3px 1px;
 }
 
 .result-img {
