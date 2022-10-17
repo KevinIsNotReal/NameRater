@@ -12,6 +12,7 @@ function nameRater() {
         var rating = Math.floor(Math.random()*11);
         console.log(rating);
         score.textContent = rating+"/10";
+        score.style.color = 'white';
         switch(true){
             case (rating < 2): image.src = 'images/husk.png'; break;
             case (rating <= 5): image.src = 'images/sad.jpg'; break;
